@@ -438,6 +438,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 4
   sprintSpeed: 5.2
+  acceleration: 12
+  deceleration: 15
   gravity: -9.81
   groundStickForce: -2
   cameraHolder: {fileID: 1398650381828242517}
@@ -448,11 +450,11 @@ MonoBehaviour:
   fovTransitionSpeed: 6
   minLookAngle: -80
   maxLookAngle: 80
-  walkBobAmount: 0.035
-  sprintBobAmount: 0.065
+  walkBobAmplitude: 0.018
+  sprintBobAmplitude: 0.032
   walkBobFrequency: 7
-  sprintBobFrequency: 11
-  bobSmoothSpeed: 12
+  sprintBobFrequency: 10
+  bobReturnSpeed: 8
   bobCurve:
     serializedVersion: 2
     m_Curve:
@@ -495,3 +497,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  footstepAudioSource: {fileID: 0}
+  walkFootsteps: []
+  sprintFootsteps: []
+  footstepVolume: 0.6
+  footstepPitchVariation: 0.8
