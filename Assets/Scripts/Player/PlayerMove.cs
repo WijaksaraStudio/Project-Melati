@@ -18,7 +18,7 @@ public class PsychologicalHorrorFPSController : MonoBehaviour
     [Header("Camera Settings")]
     [SerializeField] private Transform cameraHolder;
     [SerializeField] private Camera playerCamera;
-    [SerializeField, Range(30f, 300f)] private float mouseSensitivity = 140f;
+    [SerializeField, Range(10f, 300f)] private float mouseSensitivity = 140f;
     [SerializeField] private float baseFOV = 65f;
     [SerializeField] private float sprintFOV = 72f;
     [SerializeField] private float fovTransitionSpeed = 6f;
